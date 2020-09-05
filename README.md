@@ -1,4 +1,4 @@
-# Querying-a-RESTFUL-API
+# A Python Currency Converter Application
 This application is utilizes python to to query a RESTFUL API. The resulting application is a currency converter.
 
 
