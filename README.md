@@ -1,18 +1,26 @@
 # Querying-a-RESTFUL-API
-Develop a currency converter using a Currency RESTFUL Service - This is a course completion project.
+This application is utilizes python to to query a RESTFUL API. The resulting application is a currency converter.
 
 
-## Iterative Development
+# File Structure
 
-For your project, you should use the following process:
+## Test file
 
-Create the function stubs
-Create the test stubs
-Add tests for a function
-Implement the function
-Test until successful
-Repeat steps 3-5 for the next function
-The primary deliverable is a module with a collection of functions in it. The other deliverables are the testing script, which contains test cases for every function, and the application script, which is a simple user interface for someone who may not understand Python to be able to use your currency converter.
-Every function in the module currency is going to have a test procedure in the testing script. They will all have the form test_ and the name of the function being tested.
+The test.py is a unit test script that contains several procedures that test all the functions in the currency module. This file imports introcs and currency modules.
+https://github.com/Jules-Boogie/Querying-a-RESTFUL-API/blob/master/tests.py
 
+## Currency 
 
+The currency.py file provides string parsing functions that process the results from querying an online currency service. The functions use assert statements to enforce preconditions for parameters. 
+https://github.com/Jules-Boogie/Querying-a-RESTFUL-API/blob/master/currency.py
+
+## Exchange 
+
+The exchangeit.py module is a script that when run, prompts the user to enter an original currency, money amount, and the new currency to convert to.
+The user's input is then passed into the exchange function from the currency module and the returned value is saved in a python object.
+https://github.com/Jules-Boogie/Querying-a-RESTFUL-API/blob/master/exchangeit.py
+
+## Tools Used
+Python 
+RestFul API
+IntroCS Module
